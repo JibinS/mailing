@@ -38,8 +38,8 @@ import javax.servlet.http.Part;
 public class SendMailAttachServlet extends HttpServlet {
 	private String host="smtp.gmail.com";
 	private String port="587";
-	private String user="jibinantoss@gmail.com";
-	private String pass="edison6195";
+	private String user="";
+	private String pass="";
 
 	public void init() {
 		// reads SMTP server setting from web.xml file
